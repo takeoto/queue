@@ -1,0 +1,24 @@
+{
+    "name": "takeoto/queue",
+    "description": "Abstraction for queue.",
+    "type": "library",
+    "keywords": ["takeoto", "queue", "abstraction", "php"],
+    "license": "MIT",
+    "homepage": "https://github.com/takeoto",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Vladysalv Vernyhora",
+            "email": "vladyslav.vernyhora@gmail.com",
+            "homepage": "https://github.com/takeoto"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Takeoto\\Queue\\": "src/"
+        }
+    }
+}
